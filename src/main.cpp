@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	string path = "geometry.txt";
+	string path = "../geometry.txt";
 	AnalyseData data;
 	map <string, vector<string>> parsedCircleData = data.TakeWktDataForCircle(path);
 	
