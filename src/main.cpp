@@ -33,7 +33,9 @@ int main()
 
 	WriteCircleIntersections(circles);// заполняем поле intersections для каждого объекта circle
 
-	cout << "\n*----- Data View -----*\n\n";// вывод данных о моделировании 
+
+	cout << "\n*----- Data View -----*\n\n";
+	
 	for (auto circle : circles)
 	{
 		cout << circle.name + "(" + to_string(circle.GetXcoord()) + " " + to_string(circle.GetYcoord()) + ","

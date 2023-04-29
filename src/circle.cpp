@@ -1,9 +1,3 @@
-#include <iostream>
-#include <cmath>
-#include <fstream>
-#include <vector>
-#include <string>
-#include <map>
 #include <circle.h>
 
 
@@ -17,14 +11,22 @@ float CalculateCenterDistance(float x2, float x1, float y2, float y1)
 
 void WriteCircleIntersections(vector <Circle>& allCircles)// возвращает список фигур, с которыми пересекается выбранный экземпляр
 {
+	
+	int x, y, r;
 	int index = 0;
+
 	for (size_t i = 0; i < allCircles.size(); i++)
 	{
+		x = allCircles[i].GetXcoord();
+        y = allCircles[i].GetYcoord();
+        r = allCircles[i].GetRadios();
+        Circle(x, y, r);
+
 		for (size_t j = 0; j < allCircles.size(); j++)
 		{
 			if (j != i) 
 			{
-				if (CalculateCenterDistance(allCircles[j].GetXcoord(), allCircles[i].GetXcoord(), allCircles[j].GetYcoord(), allCircles[i].GetYcoord()) <= (allCircles[j].GetRadios() + allCircles[i].GetRadios()))
+				if (CalculateCenterDistance(allCircles[j].GetXcoord(), x, allCircles[j].GetYcoord(), y) <= (allCircles[j].GetRadios() + r))
 				{
 					allCircles[i].intersections[index] = allCircles[j].name;
 					index++;
