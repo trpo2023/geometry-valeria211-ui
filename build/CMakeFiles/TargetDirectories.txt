@@ -1,0 +1,5 @@
+/home/valeria/geometry-valeria211-ui/build/CMakeFiles/geometrylib.dir
+/home/valeria/geometry-valeria211-ui/build/CMakeFiles/test_app.dir
+/home/valeria/geometry-valeria211-ui/build/CMakeFiles/geometry.dir
+/home/valeria/geometry-valeria211-ui/build/CMakeFiles/edit_cache.dir
+/home/valeria/geometry-valeria211-ui/build/CMakeFiles/rebuild_cache.dir

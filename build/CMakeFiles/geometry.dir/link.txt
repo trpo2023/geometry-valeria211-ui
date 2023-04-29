@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/geometry.dir/src/main.cpp.o -o geometry  libgeometrylib.a -lm 
