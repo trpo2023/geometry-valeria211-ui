@@ -1,11 +1,19 @@
 #pragma once 
 
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <map>
+
 using namespace std;
 
 class Circle 
 {
-
 private: 
+ 
 
 	float xCoord = 0;
 	float yCoord = 0;
@@ -23,6 +31,7 @@ public:
 
 	string name = "";
 	string intersections[10];
+	
 
 public: 
 
