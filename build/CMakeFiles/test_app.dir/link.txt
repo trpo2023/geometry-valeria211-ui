@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_app.dir/test/test.cpp.o CMakeFiles/test_app.dir/test/main.cpp.o -o test_app  libgeometrylib.a -lm 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgeometrylib.a CMakeFiles/geometrylib.dir/src/circle.cpp.o
+/usr/bin/ranlib libgeometrylib.a
